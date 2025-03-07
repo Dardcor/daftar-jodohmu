@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d3d3d3;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Foto Profil">
+        <h1 id="name">Nama Anda</h1>
+        <p id="title">Pekerjaan Anda</p>
+        <p id="bio">Deskripsi singkat tentang diri Anda.</p>
+        <p id="tujuans">Deskripsi singkat tentang diri Anda.</p>
+    </div>
+    <script>
+        document.getElementById("name").innerText = "Syahrul Ardi Prasetiyo";
+        document.getElementById("title").innerText = "Hobi : Badminton dan Sering NT";
+        document.getElementById("bio").innerText = "Kelebihan : Gk tau males pengen beli truk";
+        document.getElementById("tujuans").innerText = "Tujuan : Pengen daftar jadi jodohmu";
+    </script>
+</body>
+</html>
